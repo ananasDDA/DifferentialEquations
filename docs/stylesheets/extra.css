@@ -1,19 +1,35 @@
-/* Уменьшаем размер иконок */
+/* Глобальное уменьшение всех emoji и иконок */
+.emojione,
+.twemoji,
+.gemoji,
 .md-typeset .emojione,
 .md-typeset .twemoji,
 .md-typeset .gemoji {
-    width: 1.125em;
-    height: 1.125em;
-    vertical-align: text-top;
+    width: 20px !important;
+    height: 20px !important;
+    vertical-align: middle !important;
 }
 
-/* Настройка размера emoji в заголовках */
+/* Уменьшаем размер emoji в заголовках */
 h1 .twemoji,
 h2 .twemoji,
-h3 .twemoji {
-    height: 1em;
-    width: 1em;
-    vertical-align: middle;
+h3 .twemoji,
+h4 .twemoji {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+/* Уменьшаем размер emoji в навигации */
+.md-nav .twemoji {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* Фиксированный размер для всех иконок в тексте */
+p .twemoji,
+li .twemoji {
+    width: 18px !important;
+    height: 18px !important;
 }
 
 /* Общие стили для улучшения читаемости */
@@ -28,9 +44,9 @@ h3 .twemoji {
     line-height: 1.3;
 }
 
-/* Настройка размера иконок в адмонишенах (callouts) */
+/* Настройка размера иконок в admonitions */
 .md-typeset .admonition-title::before,
 .md-typeset summary::before {
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
 }
