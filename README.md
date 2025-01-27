@@ -1,4 +1,3 @@
-
 # Дифференциальные уравнения
 Cайт посвященный курсу дифференциальных уравнений. Сайт создан с использованием MkDocs Material и размещен на GitHub Pages.
 
@@ -80,3 +79,51 @@ git push origin main
 ## 📞 Контакты
 
 [Telegram](https://t.me/ananasDDA)
+
+## 🚀 Деплой
+
+GitHub Actions автоматически разворачивает сайт при пуше в ветку main. Рабочий процесс настроен следующим образом:
+
+```yaml
+name: Deploy MkDocs
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - name: Deploy
+        run: mkdocs gh-deploy --force
+```
+
+Для ручного деплоя выполните:
+
+```bash
+mkdocs gh-deploy
+```
+
+## 📋 Требования
+
+- Python 3.x
+- pip
+- git
+
+## 📦 Зависимости
+
+Создайте файл requirements.txt со следующим содержимым:
+
+```text
+mkdocs-material
+pillow
+cairosvg
+```
