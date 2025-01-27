@@ -1,0 +1,72 @@
+site_name: Differential Equations
+site_url: https://yourusername.github.io/repo-name
+repo_name: yourusername/repo-name
+repo_url: https://github.com/yourusername/repo-name
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+  - glightbox
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Course Content:
+    - Introduction: content/introduction.md
+    - First Order DEs: content/first-order.md
+    - Second Order DEs: content/second-order.md
+    - Systems of DEs: content/systems.md
+  - Resources:
+    - Lecture Notes: resources/lecture-notes.md
+    - Practice Problems: resources/practice.md
+    - Additional Materials: resources/materials.md
