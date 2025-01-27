@@ -1,4 +1,6 @@
-# First Order Differential Equations
+# Дифференциальные уравнения первого порядка
+
+Основные типы и методы решения.
 
 ## Linear First Order DEs
 

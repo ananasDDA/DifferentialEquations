@@ -1,23 +1,23 @@
 site_name: Differential Equations
-site_url: https://yourusername.github.io/repo-name
-repo_name: yourusername/repo-name
-repo_url: https://github.com/yourusername/repo-name
+site_url: https://ananasdda.github.io/DifferentialEquations/
+repo_name: ananasDDA/DifferentialEquations
+repo_url: https://github.com/ananasDDA/DifferentialEquations
 
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: purple
       accent: purple
       toggle:
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+        icon: material/weather-sunny
+        name: Переключить на тёмную тему
+    - scheme: slate
       primary: purple
       accent: purple
       toggle:
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Переключить на светлую тему
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,6 +27,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  language: ru
 
 markdown_extensions:
   - footnotes
@@ -58,16 +59,16 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - Course Content:
-    - Introduction: content/introduction.md
-    - First Order DEs: content/first-order.md
-    - Second Order DEs: content/second-order.md
-    - Systems of DEs: content/systems.md
-  - Resources:
-    - Lecture Notes: resources/lecture-notes.md
-    - Practice Problems: resources/practice.md
-    - Additional Materials: resources/materials.md
+  - Главная: index.md
+  - Курс:
+    - Введение: content/introduction.md
+    - Уравнения первого порядка: content/first-order.md
+    - Уравнения второго порядка: content/second-order.md
+    - Системы уравнений: content/systems.md
+  - Материалы:
+    - Лекции: resources/lecture-notes.md
+    - Задачи: resources/practice.md
+    - Дополнительно: resources/materials.md
 
 extra_css:
   - stylesheets/extra.css
