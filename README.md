@@ -126,4 +126,5 @@ mkdocs gh-deploy
 mkdocs-material
 pillow
 cairosvg
+mkdocs-glightbox
 ```
