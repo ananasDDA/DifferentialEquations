@@ -11,7 +11,16 @@
         allowfullscreen>
 </iframe>
 
-To get the file ID:
+<!-- To get the file ID:
 1. Open your Google Drive document
 2. Click "Share" and make it accessible to "Anyone with the link"
-3. Copy the ID from the URL (between /d/ and /view)
+3. Copy the ID from the URL (between /d/ and /view) -->
+
+## Лекция 2-3
+
+<iframe src="https://drive.google.com/file/d/1C8cAUJcdpXLB113K2XhDll0SGsdBAnMO/view?usp=share_link"
+        width="100%"
+        height="600px"
+        frameborder="0"
+        allowfullscreen>
+</iframe>
