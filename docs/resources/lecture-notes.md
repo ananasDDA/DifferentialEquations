@@ -18,7 +18,7 @@
 
 ## Лекция 2-3
 
-<iframe src="https://drive.google.com/file/d/1C8cAUJcdpXLB113K2XhDll0SGsdBAnMO/view?usp=sharing"
+<iframe src="https://drive.google.com/file/d/1C8cAUJcdpXLB113K2XhDll0SGsdBAnMO/preview"
         width="100%"
         height="600px"
         frameborder="0"
