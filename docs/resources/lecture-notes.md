@@ -2,9 +2,9 @@
 
 Здесь будут размещаться материалы лекций.
 
-## Week 1 Notes
+## Лекция 1
 
-<iframe src="[презентация с первой лекции](https://drive.google.com/file/d/1zDxNJIt9LMNupCua4o-7fSfoAKUFNNQ4/view?usp=share_link)"
+<iframe src="https://drive.google.com/file/d/1zDxNJIt9LMNupCua4o-7fSfoAKUFNNQ4/preview"
         width="100%"
         height="600px"
         frameborder="0"
