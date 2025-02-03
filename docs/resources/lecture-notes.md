@@ -3,7 +3,6 @@
 Здесь будут размещаться материалы лекций.
 
 ## Week 1 Notes
-[https://drive.google.com/file/d/YOUR_FILE_ID/preview](https://drive.google.com/drive/folders/1VGto78Lf5K2Zo7YIMuLrUc12KPEkaMMy?usp=share_link)"
 
 <iframe src="[презентация с первой лекции](https://drive.google.com/file/d/1zDxNJIt9LMNupCua4o-7fSfoAKUFNNQ4/view?usp=share_link)"
         width="100%"
